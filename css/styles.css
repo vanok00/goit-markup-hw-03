@@ -24,6 +24,12 @@ a {
   text-align: center;
   color: #2e2f42;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+}
 
 .navigation-items-list {
   font-weight: 500;

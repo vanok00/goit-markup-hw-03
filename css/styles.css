@@ -24,11 +24,18 @@ a {
   text-align: center;
   color: #2e2f42;
 }
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .navigation-items-list {
@@ -51,6 +58,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   background: #fff;
+  margin-right: 76px;
 }
 
 .header-logo span {
@@ -104,7 +112,10 @@ a {
 .header-contact-item:focus {
   color: #404bbf;
 }
-
+.menu-container {
+  display: flex;
+  gap: 40px;
+}
 .solutions {
   background-color: #2e2f42;
 }
@@ -135,6 +146,9 @@ a {
 }
 
 .main-menu-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .main-menu-item {

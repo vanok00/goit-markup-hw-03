@@ -63,9 +63,8 @@ a {
 }
 
 .header-menu-item {
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
-
 .header-container {
   display: flex;
   flex-direction: row;

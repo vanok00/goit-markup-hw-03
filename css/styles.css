@@ -142,13 +142,15 @@ a {
 .header-contact-item:focus {
   color: #404bbf;
 }
+.mainy {
+}
 .container .menu-solutions {
   padding: 188px 0;
   display: flex;
 }
 .solutions {
-  background-color: #2e2f42;
   padding: 188px 0;
+  background-color: #2e2f42;
 }
 
 .solutions-title {

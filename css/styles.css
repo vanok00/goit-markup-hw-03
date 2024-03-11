@@ -94,7 +94,10 @@ a {
   display: flex;
   gap: 40px;
 }
-
+.menu-header {
+  display: flex;
+  gap: 40px;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;

@@ -17,10 +17,21 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-img {
-  display: block;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 ul {
   list-style: none;
 }
@@ -63,7 +74,6 @@ a {
 }
 
 .header-menu-item {
-  padding: 24px 0 24px;
 }
 .header-container {
   display: flex;
@@ -117,6 +127,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0 24px;
 }
 .header-menu-link:hover {
   color: #404bbf;
@@ -190,6 +201,7 @@ a {
   border: 0;
   background-color: #4d5ae5;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .solutions-btn:hover,

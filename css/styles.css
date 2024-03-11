@@ -87,10 +87,7 @@ a {
   display: flex;
   align-items: center;
 }
-.header-container {
-  display: flex;
-  gap: 40px;
-}
+
 .menu-header {
   display: flex;
   gap: 40px;

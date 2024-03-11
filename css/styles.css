@@ -162,6 +162,9 @@ a {
   color: #fff;
   max-width: 496px;
 }
+.menu-items {
+  padding: 120px 0;
+}
 
 .solutions-btn {
   display: block;

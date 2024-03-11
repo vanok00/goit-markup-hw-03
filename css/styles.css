@@ -144,13 +144,10 @@ a {
 }
 .mainy {
 }
-.container .menu-solutions {
+.menu-solutions {
+  background-color: #2e2f42;
   padding: 188px 0;
   display: flex;
-}
-.solutions {
-  padding: 188px 0;
-  background-color: #2e2f42;
 }
 
 .solutions-title {
@@ -189,14 +186,16 @@ a {
 
 .main-menu-list {
   display: flex;
-  gap: 40px;
+  gap: 24px;
   padding: 24px 0;
 }
 
 .main-menu-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .main-menu-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -214,6 +213,7 @@ a {
 
 .our-team {
   background-color: #f4f4fd;
+  display: flex;
 }
 
 .our-team-title {

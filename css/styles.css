@@ -246,6 +246,8 @@ a {
 .our-team-list {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .our-team-person {
@@ -308,6 +310,8 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .our-portfolio-item {

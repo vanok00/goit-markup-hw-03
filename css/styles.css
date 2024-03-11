@@ -213,7 +213,6 @@ a {
 
 .our-team {
   background-color: #f4f4fd;
-  display: flex;
 }
 
 .our-team-title {
@@ -224,16 +223,21 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .our-team-person {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-
-.our-team-icon {
+.persons {
+  padding: 32px 0;
 }
 
 .our-team-name {
@@ -243,6 +247,8 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-align: center;
+  mg: 8px;
 }
 
 .our-team-occup {
@@ -252,6 +258,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  text-align: center;
 }
 
 .our-menu-person {

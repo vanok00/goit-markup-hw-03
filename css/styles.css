@@ -2,8 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
-  height: 3300px;
   align-items: center;
 }
 .visually-hidden {
@@ -35,6 +33,9 @@ img {
 }
 ul {
   list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -50,12 +51,24 @@ a {
   color: #2e2f42;
 }
 .container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 320px;
+  padding: 0 16px;
   margin: 0 auto;
-  /* HEADER */
 }
+/* @media and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+} */
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -80,9 +93,7 @@ a {
 }
 .header-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 40px;
 }
 
 .header-contact-list {
@@ -101,6 +112,7 @@ a {
 .header-navigation {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 
 .menu-header {
@@ -187,12 +199,14 @@ a {
 }
 /* MAIN */
 
-.menu-solutions {
+.solutions {
   background-color: #2e2f42;
   padding: 188px 0;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .solutions-title {
@@ -203,6 +217,7 @@ a {
   text-align: center;
   color: #fff;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .menu-items {
   padding: 120px 0;
@@ -222,6 +237,8 @@ a {
   margin-left: 150px;
   color: #fff;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .solutions-btn:hover,
@@ -259,6 +276,10 @@ a {
 .our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
+}
+.team {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .our-team-title {

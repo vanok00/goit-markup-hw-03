@@ -51,10 +51,12 @@ a {
   color: #2e2f42;
 }
 .container {
-  width: 320px;
-  padding: 0 16px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
+
 /* @media and (min-width: 1158px) {
   .container {
     width: 1158px;
@@ -112,7 +114,7 @@ a {
 .header-navigation {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
 }
 
 .menu-header {
@@ -218,6 +220,8 @@ a {
   color: #fff;
   max-width: 496px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .menu-items {
   padding: 120px 0;
